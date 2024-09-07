@@ -39,8 +39,11 @@ where $⋅$ represents the dot product of vectors and $*$ denotes arithmetic mul
 As an illustration, suppose the vector set and solution vector are as follows:
 
 $$\vec{a}=[0,1,0,0,0,0]$$
+
 $$\vec{b}=[0,1,0,0,0,0]$$
+
 $$\vec{c}=[0,0,0,1,0,0]$$
+
 $$\vec{s}=[1,3,35,9,27,30]$$
 
 It can be verified that the equation $(\vec{s}\cdot\vec{a})*(\vec{s}\cdot\vec{b})-(\vec{s}\cdot\vec{c})=0$ holds true, thereby demonstrating that $\vec{s}$ satisfies this R1CS.
