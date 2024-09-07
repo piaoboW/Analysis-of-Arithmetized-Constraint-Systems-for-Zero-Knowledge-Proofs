@@ -55,27 +55,35 @@ Let's examine the variables involved: $x, sym_1, sym_2, sym_3, out$. We'll rearr
 Consider the first logical gate: $sym_1 = x * x$. This is equivalent to $x * x - sym_1 = 0$. Based on the order of $\vec{s'}$, we can easily derive the R1CS vector set as follows:
 
 $$\vec{a_1}=[0,1,0,0,0,0]$$
+
 $$\vec{b_1}=[0,1,0,0,0,0]$$
+
 $$\vec{c_1}=[0,0,0,1,0,0]$$
 
 The second logic gate $sym_2=sym_1∗x$, which is equivalent to
 $sym_1∗x−sym_2=0$, results in the second R1CS vector set:
 
 $$\vec{a_2}=[0,0,0,1,0,0]$$
+
 $$\vec{b_2}=[0,1,0,0,0,0]$$
+
 $$\vec{c_2}=[0,0,0,0,1,0]$$
 
 The third logic gate $sym_3=sym_2+x$, which is equivalent to
 $(sym_2+x)*1−sym_3=0$, results in the third R1CS vector set:
 
 $$\vec{a_3}=[0,1,0,0,1,0]$$
+
 $$\vec{b_3}=[1,0,0,0,0,0]$$
+
 $$\vec{c_3}=[0,0,0,0,0,1]$$
 
 Finally, the fourth logic gate $out=sym_3+5$ which is equivalent to $(sym_3+5)*1-out=0$, results in the fourth R1CS vector set:
 
 $$\vec{a_4}=[5,0,0,0,0,1]$$
+
 $$\vec{b_4}=[1,0,0,0,0,0]$$
+
 $$\vec{c_4}=[0,0,1,0,0,0]$$
 
 At this point, the witness is $x=3$, substituting it into $\vec{s'}$ gives $\vec{s'}=[1,3,35,9,27,30]$. Therefore, after R1CS conversion, the witness is transformed into a solution vector that simultaneously satisfies these four R1CS.
@@ -85,7 +93,9 @@ $$\vec{s}=\vec{s'}=[1,3,35,9,27,30]$$
 Let's organize the results above, grouping the four vectors in each R1CS into vector sets:
 
 $$A= \left[\begin{matrix}0&1&0&0&0&0\\0&0&0&1&0&0\\0&1&0&0&1&0\\5&0&0&0&0&1\end{matrix}\right]$$
+
 $$B= \left[\begin{matrix}0&1&0&0&0&0\\0&1&0&0&0&0\\1&0&0&0&0&0\\1&0&0&0&0&0\end{matrix}\right]$$
+
 $$C= \left[\begin{matrix}0&0&0&1&0&0\\0&0&0&0&1&0\\0&0&0&0&0&1\\0&0&1&0&0&0\end{matrix}\right]$$
 
 For each row in the vector sets $A, B, C$, the following equation holds:
@@ -164,7 +174,9 @@ The execution trace is a sequence of machine states that are generated when a co
 Take the Fibonacci sequence as an example. Suppose we need to calculate the first 512 terms of the Fibonacci sequence in the field $Z_{96769}$. Based on the field addition and multiplication modulo 96769, we define:
 
 $$a_0=1$$
+
 $$a_1=1$$
+
 $$a_{n+2}=(a_{n+1}+a_{n}) mod (96769)$$
 
 Based on the definition, we can list the values of the Fibonacci sequence:
@@ -327,6 +339,7 @@ A RAP of length $𝑛+1$ and total width 3 can easily check this:
 * The prover first sends the columns$a_0,...a_{n-1},0$和$b_0,...,b_{n-1},0$.
 * The verifier sends random $\gamma \in F$
 * The prover send a third column (1,z_1,…,z_{n-1}) such that for each $i \in[n]$
+
  $$z_i=\prod _{0\leq j \leq i-1}(a_j+\gamma)/(b_j+\gamma)$$
 
 This randomness enables local constraints (between adjacent rows) to verify global properties (the columns being a permutation of each other).
@@ -357,7 +370,7 @@ CCS is actually an extension of R1CS, referencing the arithmetization schemes of
 A CCS structure consists of:
 
 * size bounds $m, n, N, l, t, q, d$ where $n<l$;
-* 
+
 * a sequence of matrices $M_0,...,M_{t−1}\in F^{
 m×n}$  with at most $N$ non-zero entries in total;
 
