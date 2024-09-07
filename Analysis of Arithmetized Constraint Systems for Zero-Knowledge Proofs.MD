@@ -19,7 +19,9 @@ For instance, let's say Prover wants to demonstrate to Verifier that they know t
 Firstly, we need to define some intermediate variables:
 
 $$sym_1=x*x$$
+
 $$sym_2=sym_1*x$$
+
 $$sym_3=sym_2+x$$
 
 Therefore, the left-hand side of the equation can be rewritten as:
