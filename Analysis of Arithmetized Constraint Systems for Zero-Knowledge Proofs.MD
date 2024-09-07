@@ -25,7 +25,8 @@ $$sym_2=sym_1*x$$
 $$sym_3=sym_2+x$$
 
 Therefore, the left-hand side of the equation can be rewritten as:
-$$out=sym_3+5=sym_2+x+5=sym_1*x+x+5=x*x*x+x+5$$
+
+$$out=sym_3+5=sym_2+x+5=sym_1*x+x+5=x^3+x+5$$
 
 It's evident that each row of intermediate results, along with the left-hand side of the equation, can be represented as a logical gate within a mathematical circuit. These gates exclusively consist of addition and multiplication operations.
 
