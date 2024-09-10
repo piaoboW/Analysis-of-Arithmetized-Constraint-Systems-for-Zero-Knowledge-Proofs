@@ -172,7 +172,7 @@ A_4(x)\end{matrix}\right])}}
 $$
 
 $$
-(\vec{s}*{\left[\begin{matrix}
+\vec{s}*{\left[\begin{matrix}
 B_1(x)\\
 B_2(x)\\
 B_3(x)\\
