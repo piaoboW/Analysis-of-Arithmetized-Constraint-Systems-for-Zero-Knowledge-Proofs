@@ -163,7 +163,7 @@ $$
 A_1(x)\\
 A_2(x)\\
 A_3(x)\\
-A_4(x)\end{matrix}\right])}
+A_4(x)\end{matrix}\right])}*A
 $$
 
 Let the left side of the above equation equal $p(x)$. When $x=1$, it verifies the first logic gate $p(1)=0$. When $x=2$, it verifies the second logic gate $p(2)=0$. When $x=3$, it verifies the third logic gate $p(3)=0$. When $x=4$, it verifies the fourth logic gate $p(4)=0$.
