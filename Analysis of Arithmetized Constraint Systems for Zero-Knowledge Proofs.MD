@@ -321,7 +321,7 @@ These polynomial constraints are constructed so that they are all verified if an
 "Plonkish" refers to constraint systems that feature custom gates, RAP (randomized AIR with preprocessing), or TurboPLONK/UltraPLONK. While they are defined in a matrix form, the generation of the matrix differs from traditional AIR. We will introduce this using PAIR (Preprocessed AIR) and RAP (TurboPlonk and UltraPlonk are restricted cases of RAP). 
 
 ### 4.1 PAIR
-In a PAIR execution trace, an additional parameter $t$ is introduced, and $t$ predefines a column of data $c_1,…,c_t∈F^n$. Besides the $W$ columns provided by the prover, an execution trace now also includes {c_i}. (We refer to the columns provided by the prover as the witness part of the execution trace.)
+In a PAIR execution trace, an additional parameter $t$ is introduced, and $t$ predefines a column of data $c_1,…,c_t∈F^n$. Besides the $W$ columns provided by the prover, an execution trace now also includes ${c_i}$. (We refer to the columns provided by the prover as the witness part of the execution trace.)
 
 When $t=1,W=2,N=5$, we have the following execution trace:
 
