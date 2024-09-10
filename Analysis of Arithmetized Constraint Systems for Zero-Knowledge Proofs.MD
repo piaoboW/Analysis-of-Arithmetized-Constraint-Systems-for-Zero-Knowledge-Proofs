@@ -451,7 +451,10 @@ $$
 \mathbf{0}
 $$
 
-$$( M_0\cdot z)*(M_1\cdot z)-(M_2\cdot z)=1\cdot ( M_0\cdot z)$$
+$$
+( M_0\cdot z)*(M_1\cdot z)-(M_2\cdot z)=1\cdot ( M_0\cdot z)
+( M_0 \cdot z)*( M_1 \cdot z)
+$$
 
 Let $c_0=1,c_1=-1$, $S_0= \{ 0,1\}$, $S_1= \{2\}$, rewriting the above equation:
 
