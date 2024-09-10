@@ -99,9 +99,19 @@ A= \left[\begin{matrix}0&1&0&0&0&0\\
 5&0&0&0&0&1\end{matrix}\right]
 $$
 
-$$B= \left[\begin{matrix}0&1&0&0&0&0\\0&1&0&0&0&0\\1&0&0&0&0&0\\1&0&0&0&0&0\end{matrix}\right]$$
+$$
+B= \left[\begin{matrix}0&1&0&0&0&0\\
+0&1&0&0&0&0\\
+1&0&0&0&0&0\\
+1&0&0&0&0&0\end{matrix}\right]
+$$
 
-$$C= \left[\begin{matrix}0&0&0&1&0&0\\0&0&0&0&1&0\\0&0&0&0&0&1\\0&0&1&0&0&0\end{matrix}\right]$$
+$$
+C= \left[\begin{matrix}0&0&0&1&0&0\\
+0&0&0&0&1&0\\
+0&0&0&0&0&1\\
+0&0&1&0&0&0\end{matrix}\right]
+$$
 
 For each row in the vector sets $A, B, C$, the following equation holds:
 
