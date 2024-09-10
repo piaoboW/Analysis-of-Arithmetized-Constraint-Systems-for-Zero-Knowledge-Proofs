@@ -92,7 +92,12 @@ $$\vec{s}=\vec{s'}=[1,3,35,9,27,30]$$
 
 Let's organize the results above, grouping the four vectors in each R1CS into vector sets:
 
-$$A= \left[\begin{matrix}0&1&0&0&0&0\\0&0&0&1&0&0\\0&1&0&0&1&0\\5&0&0&0&0&1\end{matrix}\right]$$
+$$
+A= \left[\begin{matrix}0&1&0&0&0&0\\
+0&0&0&1&0&0\\
+0&1&0&0&1&0\\
+5&0&0&0&0&1\end{matrix}\right]
+$$
 
 $$B= \left[\begin{matrix}0&1&0&0&0&0\\0&1&0&0&0&0\\1&0&0&0&0&0\\1&0&0&0&0&0\end{matrix}\right]$$
 
