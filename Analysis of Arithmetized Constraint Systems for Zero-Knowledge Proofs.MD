@@ -163,7 +163,7 @@ $$
 A_1(x)\\
 A_2(x)\\
 A_3(x)\\
-A_4(x)\end{matrix}\right])}*A\\
+A_4(x)\end{matrix}\right])}*A
 (\vec{s}*{\left[\begin{matrix}
 A_1(x)\\
 A_2(x)\\
