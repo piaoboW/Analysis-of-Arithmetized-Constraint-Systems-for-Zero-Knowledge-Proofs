@@ -192,8 +192,7 @@ $$\left[ \begin{matrix}
    y \\
    1 
   \end{matrix}
-  \right] = \left[
- \begin{matrix}
+  \right] = \left[ \begin{matrix}
    f & 0 & O_x\\
    0 & f & O_y\\
    0 & 0 & 1
