@@ -143,7 +143,7 @@ In large-scale circuits with thousands or even millions of logic gates, R1CS ver
 Using polynomials to represent R1CS constraints:
 
 $$
-\vec{s} * 
+(\vec{s} * 
 \left[ 
 \begin{matrix}
 A_1(x)\\
@@ -151,7 +151,7 @@ A_2(x)\\
 A_3(x)\\
 A_4(x)
 \end{matrix} 
-\right] * 
+\right]) * 
 (\vec{s} * 
 \left[ 
 \begin{matrix}
