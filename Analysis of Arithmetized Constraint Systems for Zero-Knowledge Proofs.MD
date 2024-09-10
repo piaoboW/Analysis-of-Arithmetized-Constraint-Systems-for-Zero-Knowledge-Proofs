@@ -452,7 +452,7 @@ $$
 \mathbf{0}
 $$
 
-Let $c_0=1,c_1=-1$,$S_0= \{0,1\}$, $S_1= \{2\}$, rewriting the above equation:
+Let $c_0=1,c_1=-1$, $S_0= \{ 0,1\}$, $S_1= \{2\}$, rewriting the above equation:
 
 $$
 c_0\cdot( M_0\cdot z)*(M_1\cdot z)+c_1\cdot (M_2\cdot z)\\
@@ -465,7 +465,7 @@ c_0\cdot( M_0\cdot z)*(M_1\cdot z)+c_1\cdot (M_2\cdot z)\\
 $$
 
 Thus, R1CS is converted into CCS constraints. Besides the parameters in R1CS, the following are also added:
-$t=3$, $q=2$, $d=2$, $S_0= \{ 0,1 \} $, $S_1= \{ 2\}$, and the sequence of $q$ constants $\{ c_0,c_1\} $.
+$t=3$, $q=2$, $d=2$, $S_0= \{ 0,1 \}$, $S_1= \{ 2\}$, and the sequence of $q$ constants $\{ c_0,c_1\} $.
 
 CCS generalizes R1CS, simultaneously capturing the arithmetization of R1CS, Plonkish, and AIR without any additional overhead. Using CCS in conjunction with Spartan IOP results in SuperSpartan, which supports high-dimensional constraints without requiring the prover to incur encryption costs proportional to the constraint order. 
 
