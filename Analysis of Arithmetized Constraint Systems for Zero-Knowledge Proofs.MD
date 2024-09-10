@@ -445,8 +445,7 @@ Let's first list the parameters included in the R1CS constraint system $(A \cdot
 
 Let $M_0=A$, $M_1=B$, $M_2=C$, the R1CS constraint system can be transformed into:
 
-$$(M_0\cdot z)*(M_1\cdot z)-(M_2\cdot z)=1\cdot
-( M_0\cdot z)*(M_1\cdot z)+(-1)\cdot(M_2\cdot z)=\mathbf{0}$$
+$$(M_0\cdot z)*(M_1\cdot z)-(M_2\cdot z)=1\cdot (M_0\cdot z)*(M_1\cdot z)+(-1)\cdot (M_2\cdot z)=\mathbf{0}$$
 
 Let $c_0=1,c_1=-1$,$S_0= \{0,1\}$, $S_1= \{2\}$, rewriting the above equation:
 
