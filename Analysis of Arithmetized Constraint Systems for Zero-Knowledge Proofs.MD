@@ -176,7 +176,7 @@ $$
 B_1(x)\\
 B_2(x)\\
 B_3(x)\\
-B_4(x)\end{matrix}\right])}-\vec{s}*{\left[\begin{matrix}
+B_4(x)\end{matrix}\right])}-\vec{s}
 $$
 
 $$
