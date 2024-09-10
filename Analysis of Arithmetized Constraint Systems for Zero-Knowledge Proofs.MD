@@ -11,7 +11,7 @@ Furthermore, <a href="#ref1">[1]</a> introduces a new constraint system called C
 This paper aims to provide readers with a comprehensive understanding of the principles and current state of R1CS, AIR, Plonkish, and CCS within the context of ZKP systems. Our goal is to assist readers in comprehending the workings of ZKP constraint systems and equip them with the knowledge necessary to select appropriate constraint systems for building secure and efficient ZKP applications.
 
 ## 2. R1CS
-### 2.1 R1CS与QAP
+### 2.1 R1CS and QAP
 R1CS (Rank-1 Constraint System) is a first-order constraint system that essentially represents a system of equations. Before delving into R1CS, understanding QAP (Quadratic Arithmetic Problem) is crucial. QAP conversion not only translates function code into QAP but also constructs a corresponding solution (known as a QAP Witness) representing the input to the code during the conversion process. This witness then forms the foundation for building a practical zero-knowledge proof system.The following explanation draws inspiration from <a href="#ref2">[2]</a>.
 
 For instance, let's say Prover wants to demonstrate to Verifier that they know the solution to the equation $x^3 + x + 5 = 35$ (Prover knows that $x = 3$ is the solution, so the witness is $x = 3$). Let's examine how this can be done using QAP conversion.
