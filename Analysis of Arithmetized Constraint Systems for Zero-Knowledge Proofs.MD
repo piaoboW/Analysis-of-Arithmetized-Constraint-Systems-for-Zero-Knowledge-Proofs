@@ -172,36 +172,6 @@ C_4(x)
 \right]}=0
 $$
 
-$$
-{(\vec{s}*{\left[\begin{matrix}
-A_1(x)\\
-A_2(x)\\
-A_3(x)\\
-A_4(x)\end{matrix}\right])}}*
-vec{s}*{\left[\begin{matrix}
-B_1(x)\\
-B_2(x)\\
-B_3(x)\\
-B_4(x)\end{matrix}\right])}-\vec{s}
-$$
-
-$$\left[ \begin{matrix}
-   x \\
-   y \\
-   1 
-  \end{matrix} \right] = \left[ \begin{matrix}
-   f & 0 & O_x\\
-   0 & f & O_y\\
-   0 & 0 & 1
-  \end{matrix}
-  \right] \left[ \begin{matrix}
-   \bar{x} \\
-   \bar{y} \\
-   z
-  \end{matrix}
-  \right]$$
-
-
 Let the left side of the above equation equal $p(x)$. When $x=1$, it verifies the first logic gate $p(1)=0$. When $x=2$, it verifies the second logic gate $p(2)=0$. When $x=3$, it verifies the third logic gate $p(3)=0$. When $x=4$, it verifies the fourth logic gate $p(4)=0$.
 
 Based on polynomial factorization: any polynomial, as long as it has roots, can be factored into linear polynomials. Therefore, $p(x)$ can be represented as:
