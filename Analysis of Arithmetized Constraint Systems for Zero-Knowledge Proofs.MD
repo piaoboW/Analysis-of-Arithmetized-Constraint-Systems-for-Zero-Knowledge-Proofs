@@ -452,7 +452,7 @@ $$
 $$
 
 $$
-( M_0\cdot z)*(M_1\cdot z)-(M_2\cdot z)=1\cdot ( M_0\cdot z)
+( M_0\cdot z)*(M_1\cdot z)-(M_2\cdot z)=1\cdot 
 ( M_0\cdot z)*(M_1\cdot z)
 $$
 
