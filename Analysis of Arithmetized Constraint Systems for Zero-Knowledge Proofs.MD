@@ -379,9 +379,9 @@ $$\prod _{i\in [n]}(a_i+\gamma)/(b_i+\gamma)=1$$
 
 A RAP of length $𝑛+1$ and total width 3 can easily check this:
 
-* The prover first sends the columns$a_0,...a_{n-1},0$和$b_0,...,b_{n-1},0$.
+* The prover first sends the columns $a_0,...a_{n-1},0$ and $b_0,...,b_{n-1},0$.
 * The verifier sends random $\gamma \in F$
-* The prover send a third column (1,z_1,…,z_{n-1}) such that for each $i \in[n]$
+* The prover send a third column $(1,z_1,…,z_{n-1})$ such that for each $i \in[n]$
 
  $$z_i=\prod _{0\leq j \leq i-1}(a_j+\gamma)/(b_j+\gamma)$$
 
